@@ -1,0 +1,27 @@
+body {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.divlista {
+    display: flex;
+    background-color: aliceblue;
+    padding: 50px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+   
+}
+
+#insertItem {
+     border: 1px solid;
+   margin-bottom: 10px;
+   flex:1;
+}
+ button{
+    background-color: aquamarine;
+    flex-shrink: 0;
+ }
