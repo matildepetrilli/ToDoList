@@ -1,6 +1,7 @@
 body {
     background-color: blueviolet;
     display: flex;
+   
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -19,9 +20,8 @@ body {
 #insertItem {
      border: 1px solid;
    margin-bottom: 10px;
-   flex:1;
+  
 }
  button{
     background-color: aquamarine;
-    flex-shrink: 0;
  }
